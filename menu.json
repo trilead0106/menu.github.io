@@ -1,0 +1,34 @@
+{
+  "title": "範例餐廳菜單",
+  "currency": "NT$",
+  "items": [
+    {
+      "id": "m001",
+      "name": "招牌漢堡",
+      "price": 160,
+      "description": "經典手作牛肉堡，搭配特調醬",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200&auto=format&fit=crop&crop=faces"
+    },
+    {
+      "id": "m002",
+      "name": "炸雞套餐",
+      "price": 200,
+      "description": "外酥內嫩，含薯條與飲料",
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "m003",
+      "name": "蔬菜沙拉",
+      "price": 120,
+      "description": "當季時蔬，清爽低卡",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "m004",
+      "name": "手工甜點",
+      "price": 90,
+      "description": "每日限量，請向店員詢問口味",
+      "image": "https://images.unsplash.com/photo-1547516508-4e0b6f9f3b2d?q=80&w=1200&auto=format&fit=crop"
+    }
+  ]
+}
