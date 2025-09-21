@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QR 點餐 - 範例菜單</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- 修改下面電子郵件為你的接單信箱 -->
+  <meta name="merchant-email" content="orders@yourrestaurant.com" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>📱 掃碼點餐 | 範例店家</h1>
+  </header>
+
+  <main class="container">
+    <section id="menu-section">
+      <h2>菜單</h2>
+      <div id="menu" class="menu-grid" aria-live="polite"></div>
+    </section>
+
+    <aside id="cart-section">
+      <h2>購物車</h2>
+      <div id="cart-list">（尚無選購）</div>
+      <div id="cart-summary" class="summary">
+        <div>總計：<span id="total">NT$0</span></div>
+        <button id="clear-cart" class="btn">清空</button>
+        <button id="checkout" class="btn primary">送出訂單</button>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <small>範例系統 — 專為 GitHub Pages 設計（靜態）。如需線上付款或自動接單，請整合第三方服務或後端。</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
